@@ -1,0 +1,6 @@
+#a=int(input("a="))
+#b=int(input("b="))
+#print(a+b)
+a=int(input("a="))
+b=float(input("b="))
+print(a+b)
