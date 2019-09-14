@@ -11,6 +11,7 @@ def my_list():
     bike.sort()
     print("My bike list in order\n",bike)
 my_list()
+
 def my_tuple():
     game=('COD','PUBG','CS-GO')
     print("This is my tuple\n",game)
@@ -18,7 +19,8 @@ def my_tuple():
     game+=('DOTA',)
     print("Let me add DOTA to my tuple",game)
     print("There are",len(game),"games in my tuple")
-my_tuple()    
+my_tuple() 
+
 def abc2():
     print("DICTIONARY:")
     a={0:"Konichiwa",1:"Ohaiyo",2:"Kawaii",3:"Baka",4:"konoyaro",5:"Utsukushi",6:"Arigatho"}
@@ -27,18 +29,6 @@ def abc2():
     print("\n\n")
 
 abc2()
-
-
-
-def abc3():
-    print("TUPLES:")
-    print("Tuples are immutable")
-    a=('too','koo','poo')
-    print(a)
-    print("\n\n")
-abc3()
-  
-
 
 def abc4():
     print("SETS:")
